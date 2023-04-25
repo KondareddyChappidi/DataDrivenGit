@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="8" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[No of rows are::9]]>
+    </line>
+    <line>
+      <![CDATA[Login Success::dashboard     http://orangehrm.qedgetech.com/symfony/web/index.php/dashboard]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials  dashboard     http://orangehrm.qedgetech.com/symfony/web/index.php/auth/validateCredentials]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials  dashboard     http://orangehrm.qedgetech.com/symfony/web/index.php/auth/validateCredentials]]>
+    </line>
+    <line>
+      <![CDATA[Username cannot be empty  dashboard     http://orangehrm.qedgetech.com/symfony/web/index.php/auth/login]]>
+    </line>
+    <line>
+      <![CDATA[Login Success::dashboard     http://orangehrm.qedgetech.com/symfony/web/index.php/dashboard]]>
+    </line>
+    <line>
+      <![CDATA[Password cannot be empty  dashboard     http://orangehrm.qedgetech.com/symfony/web/index.php/auth/login]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials  dashboard     http://orangehrm.qedgetech.com/symfony/web/index.php/auth/validateCredentials]]>
+    </line>
+    <line>
+      <![CDATA[Username cannot be empty  dashboard     http://orangehrm.qedgetech.com/symfony/web/index.php/auth/login]]>
+    </line>
+    <line>
+      <![CDATA[Login Success::dashboard     http://orangehrm.qedgetech.com/symfony/web/index.php/dashboard]]>
+    </line>
+    <line>
+      <![CDATA[No of rows are::9]]>
+    </line>
+    <line>
+      <![CDATA[Add Employee Success::20580   20580]]>
+    </line>
+    <line>
+      <![CDATA[Add Employee Success::20581   20581]]>
+    </line>
+    <line>
+      <![CDATA[Add Employee Success::20582   20582]]>
+    </line>
+    <line>
+      <![CDATA[Add Employee Success::20583   20583]]>
+    </line>
+    <line>
+      <![CDATA[Add Employee Success::20584   20584]]>
+    </line>
+    <line>
+      <![CDATA[Add Employee Success::20585   20585]]>
+    </line>
+    <line>
+      <![CDATA[Add Employee Success::20586   20586]]>
+    </line>
+    <line>
+      <![CDATA[Add Employee Success::20587   20587]]>
+    </line>
+    <line>
+      <![CDATA[Add Employee Success::20588   20588]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-04-25T16:43:21 IST" name="Default suite" finished-at="2023-04-25T16:44:45 IST" duration-ms="84425">
+    <groups>
+    </groups>
+    <test started-at="2023-04-25T16:43:21 IST" name="Default test" finished-at="2023-04-25T16:44:45 IST" duration-ms="84425">
+      <class name="driverFactory.TestScript">
+        <test-method is-config="true" signature="AdminLogin()[pri:0, instance:driverFactory.TestScript@5f049ea1]" started-at="2023-04-25T16:43:23 IST" name="AdminLogin" finished-at="2023-04-25T16:43:33 IST" duration-ms="9759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminLogin -->
+        <test-method signature="startTest()[pri:0, instance:driverFactory.TestScript@5f049ea1]" started-at="2023-04-25T16:44:04 IST" name="startTest" finished-at="2023-04-25T16:44:43 IST" duration-ms="38656" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[No of rows are::9]]>
+            </line>
+            <line>
+              <![CDATA[Add Employee Success::20580   20580]]>
+            </line>
+            <line>
+              <![CDATA[Add Employee Success::20581   20581]]>
+            </line>
+            <line>
+              <![CDATA[Add Employee Success::20582   20582]]>
+            </line>
+            <line>
+              <![CDATA[Add Employee Success::20583   20583]]>
+            </line>
+            <line>
+              <![CDATA[Add Employee Success::20584   20584]]>
+            </line>
+            <line>
+              <![CDATA[Add Employee Success::20585   20585]]>
+            </line>
+            <line>
+              <![CDATA[Add Employee Success::20586   20586]]>
+            </line>
+            <line>
+              <![CDATA[Add Employee Success::20587   20587]]>
+            </line>
+            <line>
+              <![CDATA[Add Employee Success::20588   20588]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:driverFactory.TestScript@5f049ea1]" started-at="2023-04-25T16:44:43 IST" name="tearDown" finished-at="2023-04-25T16:44:45 IST" duration-ms="2094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- driverFactory.TestScript -->
+      <class name="driverFctory.DriverSctript">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:driverFctory.DriverSctript@4b29d1d2]" started-at="2023-04-25T16:43:21 IST" name="setUp" finished-at="2023-04-25T16:43:23 IST" duration-ms="2504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="satrtTest()[pri:0, instance:driverFctory.DriverSctript@4b29d1d2]" started-at="2023-04-25T16:43:33 IST" name="satrtTest" finished-at="2023-04-25T16:44:04 IST" duration-ms="31000" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[No of rows are::9]]>
+            </line>
+            <line>
+              <![CDATA[Login Success::dashboard     http://orangehrm.qedgetech.com/symfony/web/index.php/dashboard]]>
+            </line>
+            <line>
+              <![CDATA[Invalid credentials  dashboard     http://orangehrm.qedgetech.com/symfony/web/index.php/auth/validateCredentials]]>
+            </line>
+            <line>
+              <![CDATA[Invalid credentials  dashboard     http://orangehrm.qedgetech.com/symfony/web/index.php/auth/validateCredentials]]>
+            </line>
+            <line>
+              <![CDATA[Username cannot be empty  dashboard     http://orangehrm.qedgetech.com/symfony/web/index.php/auth/login]]>
+            </line>
+            <line>
+              <![CDATA[Login Success::dashboard     http://orangehrm.qedgetech.com/symfony/web/index.php/dashboard]]>
+            </line>
+            <line>
+              <![CDATA[Password cannot be empty  dashboard     http://orangehrm.qedgetech.com/symfony/web/index.php/auth/login]]>
+            </line>
+            <line>
+              <![CDATA[Invalid credentials  dashboard     http://orangehrm.qedgetech.com/symfony/web/index.php/auth/validateCredentials]]>
+            </line>
+            <line>
+              <![CDATA[Username cannot be empty  dashboard     http://orangehrm.qedgetech.com/symfony/web/index.php/auth/login]]>
+            </line>
+            <line>
+              <![CDATA[Login Success::dashboard     http://orangehrm.qedgetech.com/symfony/web/index.php/dashboard]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- satrtTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:driverFctory.DriverSctript@4b29d1d2]" started-at="2023-04-25T16:44:43 IST" name="tearDown" finished-at="2023-04-25T16:44:43 IST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- driverFctory.DriverSctript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
